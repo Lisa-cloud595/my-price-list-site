@@ -1,0 +1,5 @@
+// script.js
+document.querySelectorAll('.price-table tr').forEach(row => {
+    row.addEventListener('click', function() {
+        const item = row.querySelector('td:first-child').textContent;
+        alert(`Вы выб
